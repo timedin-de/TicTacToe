@@ -1,0 +1,22 @@
+#playgnd li {
+  list-style: none;
+}
+.Game_End li span {
+  background-color: #747474;
+}
+li span {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  border: solid;
+  background-color: #FFF;
+  text-align: center;
+  transition: background-color 200ms ease;
+}
+li span:hover {
+  background-color: #747474;
+}
